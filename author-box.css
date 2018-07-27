@@ -19,7 +19,7 @@
     text-shadow:#64665b 0px 1px 1px;
     font-size:17px;
     margin-bottom:-10px; margin-top:0px;
-    margin-left: 142; }
+    margin-left: 142; border-bottom: 1px dotted #FF3402; }
     .tb-aboutimg{ float:left; margin-right:25px; }
     .tb-aboutimg img{ border-top: 7px solid #000;
     border-bottom: 7px solid #F70303;
