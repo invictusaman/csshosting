@@ -1,0 +1,49 @@
+    /* -------------Copyright: TwistBlogg.blogspot.com 2018----------------*/
+    .tb-about{ float:left;
+    width:100%;
+    padding: 10px 10px 5px 10px;
+    border:2px solid #ccc;
+    border-radius: 0px 30px;margin-bottom:15px;
+    margin-top:10px;
+    background:url('http://3.bp.blogspot.com/--Np4Hy4UNx8/UtF7g1oChfI/AAAAAAAAAJI/XxXZ4ieddlA/s1600/tbbg.png');color:#444444;
+    -webkit-box-shadow:0px 0px 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow:0px 0px 10px rgba(0, 0, 0, .3);
+    box-shadow:0px 0px 10px rgba(0, 0, 0, .3);
+    text-align:justify; }
+    .tb p{text-align:justify;
+    font-family: 'Lucida Grande','Lucida Sans Unicode',Arial,Helvetica,sans-serif;
+    font-size: 13px;}
+    .tb-aboutheading h2 { color:#000;
+    font-family:'Lucida Grande','Lucida Sans Unicode',Arial,Helvetica,sans-serif;
+    font-weight:bold;
+    text-shadow:#64665b 0px 1px 1px;
+    font-size:17px;
+    margin-bottom:-10px; margin-top:0px;
+    margin-left: 142; border-bottom: 1px dotted #FF3402; }
+    .tb-aboutimg{ float:left; margin-right:25px; }
+    .tb-aboutimg img{ border-top: 7px solid #000;
+    border-bottom: 7px solid #F70303;
+    border-left: 1px solid #646461;
+    border-right: 1px solid #646461;
+    border-radius: 0px 20px; margin: 0px 0px 0px 0px;
+    -webkit-transition:-webkit-transform .35s linear;
+    -moz-transition:-moz-transform .35s linear;
+    -o-transition:-o-transform .35s linear;transition:transform .35s linear;
+    -webkit-box-shadow:0 3px 6px rgba(0,0,0,.25);
+    -moz-box-shadow:0 3px 6px rgba(0,0,0,.25);
+    box-shadow:0 3px 6px rgba(0,0,0,.25);
+    padding:5px 5px 5px 0px;
+    -webkit-transform:rotate(-7deg);
+    -moz-transform:rotate(-7deg);
+    -ms-transform:rotate(-7deg);
+    -o-transform:rotate(+5deg);
+    transform:rotate(-7deg);float:left; }
+    #tb-aboutimgD{opacity: 0.5; filter: alpha(opacity=80);}
+    #tb-aboutimgD:hover{opacity: 0.9; filter: alpha(opacity=90);}
+    .tb-aboutimg img:hover { -webkit-box-shadow:0px 0px 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow:0px 0px 10px rgba(0, 0, 0, .3);
+    box-shadow:0px 0px 10px rgba(0, 0, 0, .3);
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    -o-transform:rotate(0deg); transform:rotate(0deg); }
