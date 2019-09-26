@@ -93,7 +93,7 @@ function showTabs(json) {
 		for (var j = 0; j < total; j++) {
 			if (j == entry.length) break;
 			var link, entries = entry[j],
-				pub = entries.published.$t, // Get the post date
+				pub = entries.updated.$t, // Get the post date
 				month = c.monthNames, // Month array from the configuration
 				title = entries.title.$t, // Get the post title
 				summary = ("summary" in entries && c.showSummaries === true) ? entries.summary.$t.replace(/<br ?\/?>/g," ").replace(/<.*?>/g,"").replace(/[<>]/g,"").substring(0,c.numChars) + '&hellip;' : '', // Get the post summary
