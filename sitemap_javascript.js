@@ -99,7 +99,7 @@ function showTabs(json) {
 				summary = ("summary" in entries && c.showSummaries === true) ? entries.summary.$t.replace(/<br ?\/?>/g," ").replace(/<.*?>/g,"").replace(/[<>]/g,"").substring(0,c.numChars) + '&hellip;' : '', // Get the post summary
 				img = ("media$thumbnail" in entries && c.showThumbnails === true) ? '<img class="thumbnail" style="width:'+c.thumbSize+'px;height:'+c.thumbSize+'px;" alt="" src="' + entries.media$thumbnail.url.replace(/\/s72(\-c)?\//,"/s"+c.thumbSize+"-c/") + '"/>' : '<img class="thumbnail" style="width:'+c.thumbSize+'px;height:'+c.thumbSize+'px;" alt="" src="' + c.noThumb.replace(/\/s72(\-c)?\//,"/s"+c.thumbSize+"-c/") + '"/>', // Get the post thumbnail
 				cat = (entries.category) ? entries.category : [], // Post categories
-				date = (c.showDates) ? '<time datetime="' + pub + '" title="' + pub + '">' + "Last updated on" + pub.substring(8,10) + ' ' + month[parseInt(pub.substring(5,7),10)-1] + ' ' + pub.substring(0,4) + '</time>' : ''; // Formated published date
+				date = (c.showDates) ? '<time datetime="' + pub + '" title="' + pub + '">' + "<style="font-color:#c5c5c5">Last updated on: </style>" + pub.substring(8,10) + ' ' + month[parseInt(pub.substring(5,7),10)-1] + ' ' + pub.substring(0,4) + '</time>' : ''; // Formated published date
 				
 			for (var k = 0; k < entries.link.length; k++) {
 				if (entries.link[k].rel == 'alternate') {
