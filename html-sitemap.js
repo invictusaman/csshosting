@@ -15,7 +15,7 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
  * ---------------------------------------------------
  * by Taufik Nurrohman
  * URL: http://gplus.to/tovic
- * Modified by TwistBlogg
+ * Modified by TwistBlogg.com
  * URL: https://www.twistblogg.com
  * ---------------------------------------------------
  */
